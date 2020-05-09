@@ -15,7 +15,7 @@ def ornekler() :
 ornekler()
 
 
-#Manuel iterasyon yaptim
+#Manuel iterasyon islemleri
 while True:
     os.system("cls")
     print("[1]Islemler\n[q]Cikis")
