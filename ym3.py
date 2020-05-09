@@ -22,7 +22,7 @@ def ornekler():
 ornekler()
 
 
-#Otomatik iterasyon yaptim
+#Otomatik iterasyon islemleri
 # Islemler
 for h in range(1, 2000000):
     t = 2 * (math.acos((6.37814 * 10 ** (6)) / (6.37814 * 10 ** (6) + h)) ) \
@@ -32,7 +32,7 @@ for h in range(1, 2000000):
 print("En uzun haberleşme süresi = {} [saniye] Ve Uydunun Irtifasi = {} [metre]".format(t, h))
 
 
-#Daha hassas bir olcum icin Otomatik iterasyon yaptim
+#Daha hassas bir olcum icin Otomatik iterasyon islemleri
 # Islemler
 for h in np.arange(1, 2000000, 0.1):
     t = 2 * (math.acos((6.37814 * 10 ** (6)) / (6.37814 * 10 ** (6) + h)) ) \
