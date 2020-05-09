@@ -3,6 +3,12 @@ import math
 import os
 
 
+# Bir yere yakin yorunge (LEO) uydusu Dunya etrafinda dairesel yorungededir.
+# Uydunun yorunge duzleminde bulunan bir yer istasyonu ile uydu haberlesmektedir.
+# Burada uydu ve yer istasyonu arasindaki en uzun haberlesme suresi (ufuktan ufuga) = 920 saniyedir.
+# Uydunun irtifasinin bulunmasi :
+
+
 #Derececeleri belirlemek icin ornekler (Kodu anlamak icin gerekli)
 def ornekler() :
     print(math.degrees(0))                       #0 radians == 0 degrees
